@@ -29,16 +29,16 @@ const Feature = () => {
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">
             <li className="relative circle-check custom-list">
-              フリーサービスしか使わないから無料
+              記録作業をスマホでやりたい
             </li>
             <li className="relative circle-check custom-list">
-              スマホで使えるアプリをメインに
+              使用するサービスが増えすぎて困っている
             </li>
             <li className="relative circle-check custom-list">
-              アプリができた後もサポートします
+              自分好みのサービスがなかなか見つからない
             </li>
             <li className="relative circle-check custom-list">
-              HULCはメンバーを募集中！！
+              この問題、No-Codeで解決できるかも知れません
             </li>
           </ul>
         </div>
