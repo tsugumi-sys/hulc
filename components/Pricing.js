@@ -40,13 +40,13 @@ const Pricing = () => {
                   No-Code
                 </li>
                 <li className="relative check custom-list my-2">
-                  Based on Google Sheets
+                  自分のGoogleシートと連携
                 </li>
                 <li className="relative check custom-list my-2">
-                  For Mobile App (PWA)
+                  スマホから自動でGoogleシートに記録
                 </li>
                 <li className="relative check custom-list my-2">
-                  Looks great !!
+                  無料プランでできる
                 </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
@@ -72,10 +72,10 @@ const Pricing = () => {
                   No-Code
                 </li>
                 <li className="relative check custom-list my-2">
-                  Connect your apps
+                  アプリとアプリを繋げる
                 </li>
                 <li className="relative check custom-list my-2">
-                  Automate workflows
+                  通知機能が作れる
                 </li>
                 <li className="relative check custom-list my-2">
                   Google Sheets, Gmail, Twitter
@@ -113,7 +113,7 @@ const Pricing = () => {
                   AWS
                 </li>
                 <li className="relative check custom-list my-2">
-                  Other languages and frameworks{" "}
+                  その他様々な言語やフレームワークで{" "}
                 </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
