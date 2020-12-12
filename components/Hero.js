@@ -34,7 +34,9 @@ const Hero = ({
             <br />
             その課題、HULCと協力して解決してみませんか？
           </p>
-          <ButtonPrimary>Get Started</ButtonPrimary>
+          <a href="https://smooth-crate-3656.glideapp.io/" className="flex flex-col">
+            <ButtonPrimary>試してみる</ButtonPrimary>
+          </a>
         </div>
         <div className="flex w-full">
           <div className="h-full w-full">
