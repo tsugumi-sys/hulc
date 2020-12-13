@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <meta property="og:url" content="https://hulc.tsugumi-sys.vercel.app/" key="ogurl" />
         <meta property="og:title" content="HULC HP" key="ogsitename" />
         <meta property="og:description" content="HULC(北大ローコード)のホームページです。" key="ogdesc" />
-        <meta property="og:image" content="/assets/twitter-card.png" key="ogimage" />
+        <meta property="og:image" content="../../public/assets/twitter-card.png" key="ogimage" />
       </Head>
       <Header />
       {children}
