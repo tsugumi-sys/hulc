@@ -23,7 +23,7 @@ class MyDocument extends Document {
           <meta property="og:url" content="https://hulc.tsugumi-sys.vercel.app/" />
           <meta property="og:title" content="HULC HP" />
           <meta property="og:description" content="HULC(北大ローコード)のホームページです。" />
-          <meta property="og:image" content="../public/assets/twittercard.png" />
+          <meta property="og:image" content="https://drive.google.com/file/d/19f-DKRuy0YpQTAWLoxt8ze8RtCl_yoaG/view?usp=sharing" />
         </Head>
         <body>
           <Main />
