@@ -17,6 +17,7 @@ class MyDocument extends Document {
           />
           <meta content="HULC(北大ローコード)のホームページです。北海道大学のサークルとして2020年12月から活動を開始。北大IT系サークルとしてアプリケーション開発を通して他の学生団体（部活・サークル）を支援していくことが目的です。" name="description" />
           <meta charSet="utf-8" />
+          <meta name="twitter:card" content="summary_large_image"></meta>
         </Head>
         <body>
           <Main />
