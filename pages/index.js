@@ -13,6 +13,13 @@ export default function Home() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
         <link rel="icon" href="/favicon.ico" />
+
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:site" content="@HulcLow" />
+        <meta property="og:url" content="https://hulc.tsugumi-sys.vercel.app/" />
+        <meta property="og:title" content="HULC HP" />
+        <meta property="og:description" content="HULC(北大ローコード)のホームページです。" />
+        <meta property="og:image" content="/assets/twittercard.png" />
       </Head>
       <Layout>
         <Hero />
