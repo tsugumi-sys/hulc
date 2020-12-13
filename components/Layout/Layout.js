@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
 
         {/* Open Graph */}
         <meta property="og:url" content="https://hulc.vercel.app/" key="ogurl" />
-        <meta property="og:image" content={`${process.env.BASE_URL}assets/hulchp-image.png`} key="ogimage" />
+        <meta property="og:image" content="https://picsum.photos/400/300" key="ogimage" />
         <meta property="og:site_name" content="Hokkaido Univ. Low-Code Club" key="ogsitename" />
         <meta property="og:title" content="HULC(北大ローコード)" key="ogtitle" />
         <meta property="og:description" content="HULC(北大ローコード)のホームページです。" key="ogdesc" />
