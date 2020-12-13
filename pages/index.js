@@ -19,7 +19,7 @@ export default function Home() {
         <meta property="og:url" content="https://hulc.tsugumi-sys.vercel.app/" />
         <meta property="og:title" content="HULC HP" />
         <meta property="og:description" content="HULC(北大ローコード)のホームページです。" />
-        <meta property="og:image" content="/assets/twittercard.png" />
+        <meta property="og:image" content="../public/assets/twitter-card.png" />
       </Head>
       <Layout>
         <Hero />
