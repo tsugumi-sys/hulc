@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <a href="https://twitter.com/LowUniv" className="flex flex-col">
+              <a href="https://twitter.com/HulcLow" className="flex flex-col">
                 <Twitter className="h-6 w-6" />
               </a>
             </div>
@@ -39,15 +39,14 @@ const Footer = () => {
           <p className="text-black-600 mb-4 font-medium text-lg">Socials</p>
           <ul className="text-black-500">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              <a href="https://twitter.com/LowUniv">
+              <a href="https://twitter.com/HulcLow">
                 Twitter{" "}
               </a>
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Blog{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              準備中{" "}
+              <a href="https://hulc.hatenablog.com/">
+                Blog{" "}
+              </a>
             </li>
           </ul>
         </div>

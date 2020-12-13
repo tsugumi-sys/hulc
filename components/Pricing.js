@@ -153,7 +153,7 @@ const Pricing = () => {
                 </h5>
                 <p>TwitterのDMにて気軽にご相談ください。</p>
               </div>
-              <a href="https://twitter.com/LowUniv" className="flex flex-col">
+              <a href="https://twitter.com/HulcLow" className="flex flex-col">
                 <ButtonPrimary>Contact us</ButtonPrimary>
               </a>
             </div>

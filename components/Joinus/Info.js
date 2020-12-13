@@ -97,7 +97,7 @@ function Info() {
                 </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                <a href="https://twitter.com/LowUniv" className="flex flex-col w-full">
+                <a href="https://twitter.com/HulcLow" className="flex flex-col w-full">
                   <ButtonOutline>Contact Us</ButtonOutline>
                 </a>
               </div>

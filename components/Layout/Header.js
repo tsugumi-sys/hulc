@@ -109,7 +109,7 @@ const Header = () => {
                   Join us
               </a>
             </Link>
-            <a href="https://twitter.com/LowUniv" className="flex flex-col">
+            <a href="https://twitter.com/HulcLow" className="flex flex-col">
               <ButtonOutline>Contuct us</ButtonOutline>
             </a>
           </div>
