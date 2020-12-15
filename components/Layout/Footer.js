@@ -22,13 +22,17 @@ const Footer = () => {
           <p className="text-gray-400">©2020HULC</p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Products</p>
+          <p className="text-black-600 mb-4 font-medium text-lg">Demo Products</p>
           <ul className="text-black-500 ">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Project1{" "}
+              <a href='https://overconfident-vase-6025.glideapp.io/'>
+                KAIKEI{" "}
+              </a>
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Project2{" "}
+              <a href='https://quarrelsome-expert-6516.glideapp.io/'>
+                SHINKAN{" "}
+              </a>
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               準備中{" "}

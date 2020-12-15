@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import ButtonPrimary from "./misc/ButtonPrimary";
 
 const Feature = () => {
   return (
@@ -20,7 +21,7 @@ const Feature = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12">
+        <div className="flex flex-col justify-center ml-auto w-full lg:w-9/12">
           <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
             We Make a Very Simple App for You
           </h3>
@@ -41,6 +42,9 @@ const Feature = () => {
               この問題、No-Codeで解決できるかも知れません
             </li>
           </ul>
+          <a href='https://hulc.hatenablog.com/' className='mt-5'>
+            <ButtonPrimary>ブログを見る</ButtonPrimary>
+        　</a>
         </div>
       </div>
     </div>
