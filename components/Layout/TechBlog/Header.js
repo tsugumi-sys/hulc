@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 // Import react scroll
-import ButtonOutline from "../../misc/ButtonOutline.";
+import ButtonOutline from "../../misc/ButtonOutline";
 
 const Header = () => {
   const [scrollActive, setScrollActive] = useState(false);

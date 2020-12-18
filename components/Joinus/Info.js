@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ButtonOutline from "../misc/ButtonOutline.";
+import ButtonOutline from "../misc/ButtonOutline";
 
 function Info() {
   return (

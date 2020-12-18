@@ -22,8 +22,8 @@ const BlogHeader = ({
     coverImage
 }) => {
     return (
-        <div className="max-w-screen-xl mx-auto">
-            <main className="mt-24">
+        <div className="max-w-screen-xl mx-auto lg:mt-24 mt-14">
+            <main>
                 <div className="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style={{ height: "24em" }}>
                     <div className="absolute left-0 bottom-0 w-full h-full z-10"
                       style={{ backgroundImage: "linear-gradient(180deg,transparent,rgba(0,0,0,.7))" }}></div>

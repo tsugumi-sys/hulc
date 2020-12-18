@@ -1,6 +1,9 @@
 import Image from "next/image";
+import Link from "next/link"
 import React from "react";
 import ButtonPrimary from "./misc/ButtonPrimary";
+import ButtonOutline from "./misc/ButtonOutline"
+import ButtonSecondary from "./misc/ButtonSecondary"
 
 const Feature = () => {
   return (
@@ -42,9 +45,14 @@ const Feature = () => {
               この問題、No-Codeで解決できるかも知れません
             </li>
           </ul>
-          <a href='https://hulc.hatenablog.com/' className='mt-5'>
-            <ButtonPrimary>ブログを見る</ButtonPrimary>
+          <a href='https://hulc.hatenablog.com/' className='mt-5 mb-5'>
+            <ButtonPrimary>&emsp;Blog&ensp;&emsp;</ButtonPrimary>
         　</a>
+          <Link href="/techBlog/">
+            <a>
+              <ButtonSecondary>Tech Blog</ButtonSecondary>
+            </a>
+          </Link>
         </div>
       </div>
     </div>

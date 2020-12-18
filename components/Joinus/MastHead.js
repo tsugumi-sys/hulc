@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ButtonPrimary from "../misc/ButtonPrimary";
+
 function MastHead() {
   return (
     <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto" id="about">

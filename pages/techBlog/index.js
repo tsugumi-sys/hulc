@@ -21,7 +21,7 @@ export default function TechBlog({ posts }) {
                   
                         <div className="flex flex-wrap -mx-1 lg:-mx-4">
                             {posts?.map(({ fields }) => (
-                                <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3" key={fields.slug}>
+                                <div className="my-3 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3" key={fields.slug}>
                                     <Post
                                     title={fields.title}
                                     subtitle={fields.subTitle}
