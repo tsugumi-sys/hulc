@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link"
 import React from "react";
 import ButtonPrimary from "./misc/ButtonPrimary";
-import ButtonOutline from "./misc/ButtonOutline"
 import ButtonSecondary from "./misc/ButtonSecondary"
 
 const Feature = () => {
@@ -10,17 +9,17 @@ const Feature = () => {
     <div
       className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
       id="feature"
-    >
+    >                 
       <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 my-12">
         <div className="flex w-full justify-end">
           <div className="h-full w-full p-4">
             <Image
-              src="/assets/Illustration2.png"
+              src="/assets/bg8-2.png"
               alt="VPN Illustrasi"
               layout="responsive"
               quality={100}
-              height={414}
-              width={508}
+              height={357}
+              width={550}
             />
           </div>
         </div>
