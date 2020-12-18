@@ -35,7 +35,7 @@ const BlogBody = ({ content }) => {
                     <button
                         className="mt-5 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-white-500 uppercase transition bg-green-500 rounded-full shadow ripple hover:shadow-lg hover:bg-green-600 focus:outline-none"
                     >
-                        Back To Top
+                        Back
                     </button>
                 </Link>
             </div>
