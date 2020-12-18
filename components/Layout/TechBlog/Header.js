@@ -1,21 +1,23 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 // Import react scroll
-import ButtonOutline from "../misc/ButtonOutline.";
-//import SheetLogo from "../../public/assets/sheet-icon.svg";
+import ButtonOutline from "../../misc/ButtonOutline.";
 
-const HeaderSec = () => {
+const Header = () => {
   const [scrollActive, setScrollActive] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScrollActive(window.scrollY > 20);
     });
+    return () => {
+      setScrollActive(false)
+    }
   }, []);
   return (
     <>
       <header
         className={
-          "fixed top-0 w-full  z-30 bg-white-500 transition-all " +
+          "fixed top-0 w-full  z-30 bg-black-600 transition-all " +
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
@@ -28,9 +30,9 @@ const HeaderSec = () => {
             </Link>
           </div>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <Link href="/joinus/">
-              <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
-                  Join us
+            <Link href="/techBlog/">
+              <a className="text-white-300 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
+                  BlogTop
               </a>
             </Link>
             <a href="https://twitter.com/HulcLow" className="flex flex-col">
@@ -43,4 +45,4 @@ const HeaderSec = () => {
   );
 };
 
-export default HeaderSec;
+export default Header;

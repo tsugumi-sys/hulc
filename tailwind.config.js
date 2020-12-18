@@ -20,6 +20,7 @@ module.exports = {
       orange: "0px 20px 20px -15px rgba(245,56,56,0.81) ",
       "orange-md": "0px 20px 40px -15px rgba(245,56,56,0.81) ",
       none: "none",
+      mui: "1px 0px 20px -1px rgba(0,0,0,0.2), 0px 0px 20px 5px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12)",
     },
     colors: {
       transparent: "transparent",

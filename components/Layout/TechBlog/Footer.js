@@ -1,5 +1,5 @@
 import React from "react";
-import Twitter from "../../public/assets/Icon/twitter.svg";
+import Twitter from "../../../public/assets/Icon/twitter.svg";
 import Link from "next/link"
 const Footer = () => {
   return (
@@ -50,9 +50,9 @@ const Footer = () => {
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               <Link href="/techBlog">
-                <a>
-                  TechBlog{" "}
-                </a>
+              <a>
+                TechBlog{" "}
+              </a>
               </Link>
             </li>
           </ul>
