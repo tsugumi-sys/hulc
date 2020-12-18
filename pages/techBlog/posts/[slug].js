@@ -52,7 +52,7 @@ const Blog = ({ post, morePosts }) => {
               coverImage={post?.fields.coverImage.fields.file.url}
             />
             <BlogBody content={post?.fields.content} />
-            {morePosts.length !== 0 && (
+            {morePosts && (
                 <div className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14 mt-24">
                     <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
                             <h1 className="text-xl">Resent Posts</h1>
