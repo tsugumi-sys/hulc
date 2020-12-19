@@ -39,7 +39,7 @@ const BlogHeader = ({
                             <img src={authorImage} className="h-10 w-10 rounded-full mr-2 object-cover" />
                             <div>
                                 <p className="font-semibold text-gray-400 text-sm">{authorName}</p>
-                                <p className="font-semibold text-gray-200 text-xs">{moment(date).format("MMMM Do YYYY")}</p>
+                                <p className="font-semibold text-gray-400 text-xs">{moment(date).format("MMMM Do YYYY")}</p>
                             </div>
                         </div>
                     </div>
