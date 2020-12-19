@@ -13,7 +13,7 @@ export default function TechBlog({ posts }) {
     return (
         <Layout
         title="HULC Tech Blog"
-        description="This is HULC Tech Blog !!!"
+        description="このブログはHULC（北大ローコード）のテックブログです。Javascript, Python e.t.c..."
         >
             <PageHeader />
             <div className="bg-gradient-to-b from-white-300 to-white-500 w-full py-4 mt-4">

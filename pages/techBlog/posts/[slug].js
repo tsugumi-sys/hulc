@@ -39,7 +39,6 @@ const Blog = ({ post, morePosts }) => {
         <Layout
           title={post?.fields.title}
           description={post?.fields.title}
-          ogImage={post?.fields.coverImage.fields.file.url}
           url={`https://hulc.vercel.app/techBlog/posts/${post?.fields.slug}`}
         >
             <BlogHeader

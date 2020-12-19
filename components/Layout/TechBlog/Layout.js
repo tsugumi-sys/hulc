@@ -4,7 +4,7 @@ import Head from "next/head"
 
 const Layout = ({ children, title, description, ogImage, url }) => {
     const pageUrl = "https://hulc.vercel.app/techBlog";
-    const ogImg = "https://hulc.vercel.app/assets/hulchp-image.png";
+    const ogImg = "https://hulc.vercel.app/assets/hulc-techblog.png";
     return(
         <>
             <Head>
