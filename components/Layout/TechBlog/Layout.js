@@ -19,19 +19,19 @@ const Layout = ({ children, title, description, ogImage, url }) => {
                   }
                 />
                 {/* Twitter */}
-                <meta name="twitter:card" content="summary_large_image" key="twcard" />
-                <meta name="twitter:creator" content="@HulcLow" key="twhandle" />
+                <meta name="twitter:card" content="summary_large_image" key="techblog-twcard" />
+                <meta name="twitter:creator" content="@HulcLow" key="techblog-twhandle" />
 
                 {/* Open Graph */}
-                <meta property="og:url" content={url ? url : pageUrl} key="ogurl" />
-                <meta property="og:image" content={ogImage ? ogImage : ogImg} key="ogimage" />
-                <meta property="og:site_name" content="Hokkaido Univ. Low-Code Club" key="ogsitename" />
-                <meta property="og:title" content="HULC(北大ローコード)" key="ogtitle" />
+                <meta property="og:url" content={url ? url : pageUrl} key="techblog-ogurl" />
+                <meta property="og:image" content={ogImage ? ogImage : ogImg} key="techblog-ogimage" />
+                <meta property="og:site_name" content="Hokkaido Univ. Low-Code Club" key="techblog-ogsitename" />
+                <meta property="og:title" content="HULC(北大ローコード)Tech Blog" key="techblog-ogtitle" />
                 <meta property="og:description" content={
                     description
                       ? description
                       : "This is a statically generated blog example using Next.js and Contentful."
-                } key="ogdesc" />
+                } key="techblog-ogdesc" />
             </Head>
             <Header />
             <main>{children}</main>
