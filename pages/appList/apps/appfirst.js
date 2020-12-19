@@ -8,7 +8,7 @@ const AppFirst = () => {
         <Layout
           title="SHINKAN"
           description="HULC（北大ローコード）新入生記録とイベント管理アプリ"
-          url="/assets/appList/shinkan.PNG"
+          url="https://hulc.vercel.app/assets/appList/shinkan.PNG"
         >
             <BlogHeader
               title="SHINKAN"

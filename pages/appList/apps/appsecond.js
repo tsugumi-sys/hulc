@@ -9,7 +9,7 @@ const AppFirst = () => {
         <Layout
           title="KAIKEI"
           description="シンプルなグループ会計アプリ"
-          url="/assets/appList/kaikei.PNG"
+          url="https://hulc.vercel.app/assets/appList/kaikei.PNG"
         >
             <BlogHeader
               title="KAIKEI"
