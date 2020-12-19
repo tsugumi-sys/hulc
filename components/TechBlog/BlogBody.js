@@ -32,11 +32,13 @@ const BlogBody = ({ content }) => {
             <div className="px-4 lg:px-0 mt-12 mb-4 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
                 {documentToReactComponents(content, options)}
                 <Link href="/techBlog/">
-                    <button
-                        className="mt-5 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-white-500 uppercase transition bg-green-500 rounded-full shadow ripple hover:shadow-lg hover:bg-green-600 focus:outline-none"
-                    >
-                        Back
-                    </button>
+                    <a>
+                        <button
+                            className="mt-5 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-white-500 uppercase transition bg-green-500 rounded-full shadow ripple hover:shadow-lg hover:bg-green-600 focus:outline-none"
+                        >
+                            Back
+                        </button>
+                    </a>
                 </Link>
             </div>
         </div>

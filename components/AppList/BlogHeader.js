@@ -1,11 +1,8 @@
-import moment from "moment"
-
 const BlogHeader = ({
     title,
     subTitle,
     authorName,
     authorImage,
-    date,
     coverImage
 }) => {
     return (
@@ -19,14 +16,14 @@ const BlogHeader = ({
                         <h2 className="text-4xl font-semibold text-gray-100 leading-tight">
                             {title}
                         </h2>
-                        <h4 className="text-2xl text-gray-100 leading-tight">
+                        <h4 className="text-2xl font-semibold text-gray-100 leading-tight">
                             {subTitle}
                         </h4>
                         <div className="flex mt-3">
                             <img src={authorImage} className="h-10 w-10 rounded-full mr-2 object-cover" />
                             <div>
+                                <p className="font-semibold text-gray-400 text-sm">made by</p>
                                 <p className="font-semibold text-gray-400 text-sm">{authorName}</p>
-                                <p className="font-semibold text-gray-400 text-xs">{moment(date).format("MMMM Do YYYY")}</p>
                             </div>
                         </div>
                     </div>

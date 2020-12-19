@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link"
 import Image from "next/image";
 import ButtonPrimary from "./misc/ButtonPrimary";
 const Hero = ({
@@ -24,8 +25,8 @@ const Hero = ({
     <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto" id="about">
       <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 my-12">
         <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
-          <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-            Find a simple way to solve your problem with <strong>HULC</strong>.
+          <h1 className="leading-relaxed text-3xl lg:text-4xl xl:text-4xl font-semibold text-black-600">
+            あなたのチームだけのオリジナルアプリをHULCと作りませんか？.
           </h1>
           <p className="text-black-500 mt-4 mb-6">
             この記録作業、スマホでできたらいいのに…
@@ -34,9 +35,11 @@ const Hero = ({
             <br />
             その課題、HULCと協力して解決してみませんか？
           </p>
-          <a href="https://overconfident-vase-6025.glideapp.io/" className="flex flex-col">
-            <ButtonPrimary>試してみる</ButtonPrimary>
-          </a>
+          <Link href="/appList">
+            <a className="flex flex-col">
+              <ButtonPrimary>アプリを見てみる</ButtonPrimary>
+            </a>
+          </Link>
         </div>
         <div className="flex w-full">
           <div className="h-full w-full">
