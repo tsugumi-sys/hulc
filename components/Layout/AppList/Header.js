@@ -23,16 +23,16 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <Link href="/">
+            <Link href="/appList/">
               <a className="text-white-300 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
                 HOME
               </a>
             </Link>
           </div>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <Link href="/appList/">
+            <Link href="/">
               <a className="text-white-300 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
-                  App List Top
+                  HP Top
               </a>
             </Link>
             <a href="https://twitter.com/HulcLow" className="flex flex-col">
