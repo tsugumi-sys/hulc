@@ -16,6 +16,14 @@ const BlogBody = ({ content }) => {
                     />
                 )
             },
+            [BLOCKS.HEADING_1]: (node) => {
+                const { value } = node.content[0];
+                return (
+                    <h1 className="font-semibold" style={{ fontSize: "1.5rem", marginBottom: "0", marginTop: "2rem" }}>
+                        {value}
+                    </h1>
+                )
+            },
             [INLINES.HYPERLINK]: (node) => {
                 const { url } = node.data;
                 const { value } = node.content[0];
