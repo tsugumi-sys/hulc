@@ -7,6 +7,14 @@ import PageHeader from "../../components/AppList/PageHeader"
 export default function TechBlog() {
     const apps = [
         {
+            title: "SCORES",
+            subTitle: "選手のスコア記録・スケジュール管理アプリ",
+            authorName: "tsugumi7878",
+            authorImage: "/assets/memberIcon/tsugumi7878.jpg",
+            slug: "appthird",
+            coverImage:"/assets/appList/scores.png",
+        },
+        {
             title: "SHINKAN",
             subTitle: "新入生記録とイベント管理アプリ",
             authorName: "tsugumi7878",
@@ -22,14 +30,6 @@ export default function TechBlog() {
             slug: "appsecond",
             coverImage:"/assets/appList/kaikei.PNG",
         },
-        {
-            title: "SCORES",
-            subTitle: "選手のスコア記録・スケジュール管理アプリ",
-            authorName: "tsugumi7878",
-            authorImage: "/assets/memberIcon/tsugumi7878.jpg",
-            slug: "appthird",
-            coverImage:"/assets/appList/scores.png",
-        }
     ];
     return (
         <Layout
