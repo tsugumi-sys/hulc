@@ -21,6 +21,14 @@ export default function TechBlog() {
             authorImage: "/assets/memberIcon/tsugumi7878.jpg",
             slug: "appsecond",
             coverImage:"/assets/appList/kaikei.PNG",
+        },
+        {
+            title: "SCORES",
+            subTitle: "選手のスコア記録・スケジュール管理アプリ",
+            authorName: "tsugumi7878",
+            authorImage: "/assets/memberIcon/tsugumi7878.jpg",
+            slug: "appthird",
+            coverImage:"/assets/appList/scores.png",
         }
     ];
     return (
