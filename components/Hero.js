@@ -11,12 +11,12 @@ const Hero = ({
     },
     {
       name: "Users",
-      number: "1",
+      number: "2",
       icon: "/assets/Icon/user_icon_white.svg",
     },
     {
       name: "Apps",
-      number: "1",
+      number: "2",
       icon: "/assets/Icon/app_icon_white.svg",
     },
   ],

@@ -1,10 +1,18 @@
+import React, { useState, useEffect } from 'react'
 import Head from "next/head";
 import Feature from "../components/Feature";
 import Pricing from "../components/Pricing";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
+import Loading from "../components/Loading/Loading"
 
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 3000);
+  }, [])
+
   return (
     <>
       <Head>
@@ -14,11 +22,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout>
-        <Hero />
-        <Feature />
-        <Pricing />
-      </Layout>
+      {loading === false ? (
+          <Layout>
+            <Hero />
+            <Feature />
+            <Pricing />
+          </Layout>
+      ) : (
+        <Loading />
+      )}
     </>
   );
 }
