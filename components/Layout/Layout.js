@@ -5,7 +5,7 @@ import Header from "./Header";
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div>
       <Head>
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" key="twcard" />
@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
       <Header />
       {children}
       <Footer />
-    </>
+    </div>
   );
 };
 

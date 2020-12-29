@@ -6,7 +6,7 @@ const Layout = ({ children, title, description, ogImage, url }) => {
     const pageUrl = "https://hulc.vercel.app/appList";
     const ogImg = "https://hulc.vercel.app/assets/hulc-apps.png";
     return(
-        <>
+        <div>
             <Head>
                 <title>{title ? title: "HULC Tech Blog"}</title>
                 <meta
@@ -55,7 +55,7 @@ const Layout = ({ children, title, description, ogImage, url }) => {
                     }
                 `}
             </style>
-        </>
+        </div>
     )
 }
 

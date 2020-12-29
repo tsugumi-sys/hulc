@@ -4,11 +4,11 @@ import HeaderSec from "./HeaderSec";
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div>
       <HeaderSec />
       {children}
       <Footer />
-    </>
+    </div>
   );
 };
 

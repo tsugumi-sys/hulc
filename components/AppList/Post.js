@@ -12,7 +12,7 @@ export default function Post({
         <Link href={`/appList/apps/${slug}`}>
           <a>
             <article className="overflow-hidden rounded-lg shadow-lg hover:shadow-mui">
-                <img alt="Placeholder" className="block h-72 w-full object-cover" src={coverImage} />
+                <img alt="Placeholder" className="block h-48 w-full object-cover" src={coverImage} />
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 className="text-lg">
                             {title.length > 25 ? title.substr(0, 24) + "..." : title}
