@@ -7,11 +7,11 @@ import Layout from "../components/Layout/Layout";
 import Loading from "../components/Loading/Loading"
 
 export default function Home() {
-  const [loading, setLoading] = useState(true);
+  //const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 4000);
-  }, [])
+  //useEffect(() => {
+  //  setTimeout(() => setLoading(false), 4000);
+  //}, [])
 
   return (
     <div>
@@ -22,15 +22,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {loading === false ? (
-          <Layout>
-            <Hero />
-            <Feature />
-            <Pricing />
-          </Layout>
-      ) : (
-        <Loading />
-      )}
+        <Layout>
+          <Hero />
+          <Feature />
+          <Pricing />
+        </Layout>
     </div>
   );
 }

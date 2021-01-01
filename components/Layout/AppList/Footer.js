@@ -24,14 +24,11 @@ const Footer = () => {
           <p className="text-black-600 mb-4 font-medium text-lg">Demo Apps</p>
           <ul className="text-black-500 ">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              <a href='https://overconfident-vase-6025.glideapp.io/'>
-                KAIKEI{" "}
-              </a>
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              <a href='https://quarrelsome-expert-6516.glideapp.io/'>
-                SHINKAN{" "}
-              </a>
+              <Link href="/appList">
+                  <a>
+                    App List
+                  </a>
+              </Link>
             </li>
           </ul>
         </div>

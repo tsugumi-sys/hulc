@@ -1,110 +1,90 @@
 import React from "react";
-import Image from "next/image";
-import ButtonOutline from "../misc/ButtonOutline";
+import Link from "next/link"
+import ButtonPrimary from "../misc/ButtonPrimary";
 
-function Info() {
+const Info =  () => {
   return (
     <div
-      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14 lg:py-24"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed">
-            What do you need to join us?
+            What you Need
           </h3>
           <p className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center">
-            HULCと一緒に活動するに当たって知っておいて欲しい基本的な情報をここで紹介します。
+            このサークルはアプリ開発とともに、学生や社会においてどんな課題やニーズがるのかを確認し、
+            どのようなアプリがそれらを満たすことができるのかを実践しながら探求していくサークルです。
           </p>
-          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20">
-              <div className="p-4 lg:p-0 mt-6 lg:mt-16">
-                <a href="https://www.glideapps.com/">
-                  <Image
-                    src="/assets/pin.png"
-                    width={112}
-                    height={123}
-                    alt="Free Plan"
-                  />
-                </a>
-              </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Active
-              </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  プログラミングに興味がある
-                </li>
-                <li className="relative check custom-list my-2">
-                  アプリを作って役立ててみたい
-                </li>
-                <li className="relative check custom-list my-2">
-                  英語に抵抗がない(使用サービスが英語のため)
-                </li>
-                <li className="relative check custom-list my-2">
-                  好奇心が強く積極的なメンバーを募集中
-                </li>
-              </ul>
-              
-            </div>
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20">
-              <div className="p-4 lg:p-0 mt-6 lg:mt-16">
-                <Image
-                  src="/assets/tools.png"
-                  width={80}
-                  height={130}
-                  alt="Standard Plan"
-                />
-              </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Tools{" "}
-              </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  ノートパソコン
-                </li>
-                <li className="relative check custom-list my-2">
-                  ネット環境
-                </li>
-                <li className="relative check custom-list my-2">
-                  これらさえあればHULCのメンバーとして活動できます。
-                </li>
-              </ul>
-            </div>
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20">
-              <div className="p-4 lg:p-0 mt-6 lg:mt-16">
-                <Image
-                  src="/assets/bg5-2.png"
-                  width={170}
-                  height={120}
-                  alt="Premium Plan"
-                />
-              </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Note{" "}
-              </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  会費はかかりません
-                </li>
-                <li className="relative check custom-list my-2">
-                  このサークルはアプリ開発を通して収益を出すことが目的ではありません。
-                </li>
-                <li className="relative check custom-list my-2">
-                  よってお金を稼ぐことはできません。
-                </li>
-                <li className="relative check custom-list my-2">
-                  アプリ開発を通して部活・サークル等を支援する事が目的です。{" "}
-                </li>
-              </ul>
-              <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                <a href="https://twitter.com/HulcLow" className="flex flex-col w-full">
-                  <ButtonOutline>Contact Us</ButtonOutline>
-                </a>
-              </div>
-            </div>
+          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-2 sm:px-0 lg:px-6">
+            <Link href="https://twitter.com/HulcLow">
+              <a>
+                <div className="bg-white rounded-lg shadow-xl py-2 pb-10">
+                  <div className="pt-10 pb-3 pl-20">
+                    <div className="text-center flex flex-row items-center">
+                      <h1 className="text-8xl font-bold">￥0</h1>
+                    </div>
+                  </div>
+                  <div className="text-center w-5/6 mx-auto">
+                    <h1 className="font-semibold text-2xl text-gray-700 mb-1">活動費用は0円</h1>
+                    <p className="text-gray-600 mb-6">フリーサービスにこだわる限り、このサークルの運営（個人の会費）も無料であるべきです。</p>
+                    <a>
+                      <ButtonPrimary>@HulcLow</ButtonPrimary>
+                    </a>
+                  </div>
+                </div>
+              </a>
+            </Link>
+
+            <Link href="https://twitter.com/HulcLow">
+              <a>
+                <div className="bg-white rounded-lg shadow-xl py-2 pb-10">
+                  <div className="pt-10 pb-3 pl-20">
+                    <div className="text-center flex flex-row items-center">
+                      <h1 className="text-8xl font-bold">EN</h1>
+                      <p className="text-lg ml-3">英語</p>
+                    </div>
+                  </div>
+                  <div className="text-center w-5/6 mx-auto">
+                    <h1 className="font-semibold text-2xl text-gray-700 mb-1">英語がよく出てくる</h1>
+                    <p className="text-gray-600 mb-6">
+                      使用するサービスは海外のものが多いです。英語に抵抗がないと良いです。得意である必要はありません。
+                    </p>
+                    
+                    <a>
+                      <ButtonPrimary>@HulcLow</ButtonPrimary>
+                    </a>
+                  
+                  </div>
+                </div>
+              </a>
+            </Link>
+
+            <Link href="https://twitter.com/HulcLow">
+              <a>
+                <div className="bg-white rounded-lg shadow-xl py-2 pb-10">
+                  <div className="pt-10 pb-3 pl-20">
+                    <div className="text-center flex flex-row items-center">
+                      <h1 className="text-8xl font-bold">PC</h1>
+                      <p className="text-lg ml-3">& Wi-Fi</p>
+                    </div>
+                  </div>
+                  <div className="text-center w-5/6 mx-auto">
+                    <h1 className="font-semibold text-2xl text-gray-700 mb-1">必要なのはこの2つだけ</h1>
+                    <p className="text-gray-600 mb-6">ノートPCとWi-Fi環境があればバリバリ活動ができます。ノートPCは高スペックでなくても問題ありません。</p>
+                   
+                    <a>
+                      <ButtonPrimary>@HulcLow</ButtonPrimary>
+                    </a>
+                    
+                  </div>
+                </div>
+              </a>
+            </Link>
+
           </div>
         </div>
-        </div>
+      </div>
     </div>
   );
 };

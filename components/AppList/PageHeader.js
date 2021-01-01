@@ -9,7 +9,7 @@ const PageHeader = () => {
                         HULC App List
                     </h3>
                     <p className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center">
-                        HULC（北大ローコード）のアプリです。ぜひスマホのホーム画面に追加して試してみてください。使いたい！と思ったらTwitter(Contact us)で気軽に連絡してください。
+                        HULC（北大ローコード）のアプリです。TRYボタンから実際に試すことができます。使いたい！と思ったらTwitter(Contact us)で気軽に連絡してください。
                     </p>
                 </div>
             </div>

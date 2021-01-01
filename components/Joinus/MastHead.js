@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link"
+import ButtonPrimary from "../misc/ButtonPrimary"
 
 function MastHead() {
   return (
@@ -16,6 +18,11 @@ function MastHead() {
             <br />
             行動力があるそこのあなた！！DM待ってます。
           </p>
+          <Link href="https://twitter.com/HulcLow">
+            <a>
+              <ButtonPrimary>@HulcLow</ButtonPrimary>
+            </a>
+          </Link>
         </div>
         <div className="flex w-full">
           <div className="h-full w-full">
