@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link"
 import React from "react";
 import ButtonPrimary from "./misc/ButtonPrimary";
-import ButtonSecondary from "./misc/ButtonSecondary"
 
 const Feature = () => {
   return (

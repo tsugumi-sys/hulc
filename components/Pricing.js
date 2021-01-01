@@ -49,7 +49,7 @@ const Pricing = () => {
                     </div>
                   </div>
                   <div className="text-center w-5/6 mx-auto">
-                    <h1 className="font-semibold text-2xl text-gray-700 mb-1">Join Us !!!</h1>
+                    <h1 className="font-semibold text-2xl text-gray-700 mb-1">Join Us Now</h1>
                     <p className="text-gray-600 mb-6">
                       アプリを作ってみたいという人、一緒に活動してみませんか？
                       北大ローコードは仲間を募集しています。
@@ -74,7 +74,7 @@ const Pricing = () => {
                     </div>
                   </div>
                   <div className="text-center w-5/6 mx-auto">
-                    <h1 className="font-semibold text-2xl text-gray-700 mb-1">Check Blog</h1>
+                    <h1 className="font-semibold text-2xl text-gray-700 mb-1">Check our Blog</h1>
                     <p className="text-gray-600 mb-6">HP内にあるブログでは使用するサービスやフレームワークについてシンプルにまとめています。</p>
                     <Link href="/techBlog">
                       <a>
