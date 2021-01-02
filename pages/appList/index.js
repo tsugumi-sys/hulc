@@ -30,6 +30,14 @@ export default function TechBlog() {
             slug: "appsecond",
             coverImage:"/assets/appList/kaikei.PNG",
         },
+        {
+            title: "URIAGE",
+            subTitle: "シンプルな売り上げ会計アプリ",
+            authorName: "tsugumi7878",
+            authorImage: "/assets/memberIcon/tsugumi7878.jpg",
+            slug: "appforth",
+            coverImage:"/assets/appList/uriage.png",
+        },
     ];
     return (
         <Layout
