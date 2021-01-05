@@ -7,6 +7,9 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Head>
+        <title>北大ローコード（Hokkaido Univ. LowCode Club）</title>
+        <meta content="HULC(北大ローコード)のホームページです。北海道大学のサークルとして2020年12月から活動を開始。北大IT系サークルとしてアプリケーション開発を通して他の学生団体（部活・サークル）を支援していくことが目的です。" name="description" />
+
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" key="twcard" />
         <meta name="twitter:creator" content="@HulcLow" key="twhandle" />

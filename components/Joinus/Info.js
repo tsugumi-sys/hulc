@@ -28,9 +28,9 @@ const Info =  () => {
                   <div className="text-center w-5/6 mx-auto">
                     <h1 className="font-semibold text-2xl text-gray-700 mb-1">活動費用は0円</h1>
                     <p className="text-gray-600 mb-6">フリーサービスにこだわる限り、このサークルの運営（個人の会費）も無料であるべきです。</p>
-                    <a>
-                      <ButtonPrimary>@HulcLow</ButtonPrimary>
-                    </a>
+                    
+                    <ButtonPrimary>@HulcLow</ButtonPrimary>
+                    
                   </div>
                 </div>
               </a>
@@ -51,9 +51,8 @@ const Info =  () => {
                       使用するサービスは海外のものが多いです。英語に抵抗がないと良いです。得意である必要はありません。
                     </p>
                     
-                    <a>
-                      <ButtonPrimary>@HulcLow</ButtonPrimary>
-                    </a>
+                    <ButtonPrimary>@HulcLow</ButtonPrimary>
+                    
                   
                   </div>
                 </div>
@@ -73,9 +72,8 @@ const Info =  () => {
                     <h1 className="font-semibold text-2xl text-gray-700 mb-1">必要なのはこの2つだけ</h1>
                     <p className="text-gray-600 mb-6">ノートPCとWi-Fi環境があればバリバリ活動ができます。ノートPCは高スペックでなくても問題ありません。</p>
                    
-                    <a>
-                      <ButtonPrimary>@HulcLow</ButtonPrimary>
-                    </a>
+                    
+                    <ButtonPrimary>@HulcLow</ButtonPrimary>
                     
                   </div>
                 </div>

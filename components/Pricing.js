@@ -29,11 +29,9 @@ const Pricing = () => {
                   <div className="text-center w-5/6 mx-auto">
                     <h1 className="font-semibold text-2xl text-gray-700 mb-1">Check App List</h1>
                     <p className="text-gray-600 mb-6">作成したアプリをぜひ見てみてください。アプリを自分のチームに活用してみませんか？</p>
-                    <Link href="/appList">
-                      <a>
-                        <ButtonPrimary>アプリを見る</ButtonPrimary>
-                      </a>
-                    </Link>
+                    
+                    <ButtonPrimary>アプリを見る</ButtonPrimary>
+                      
                   </div>
                 </div>
               </a>
@@ -54,11 +52,7 @@ const Pricing = () => {
                       アプリを作ってみたいという人、一緒に活動してみませんか？
                       北大ローコードは仲間を募集しています。
                     </p>
-                    <Link href="/joinus">
-                      <a>
-                        <ButtonPrimary>Join Us</ButtonPrimary>
-                      </a>
-                    </Link>
+                    <ButtonPrimary>Join Us</ButtonPrimary>
                   </div>
                 </div>
               </a>
@@ -76,11 +70,7 @@ const Pricing = () => {
                   <div className="text-center w-5/6 mx-auto">
                     <h1 className="font-semibold text-2xl text-gray-700 mb-1">Check our Blog</h1>
                     <p className="text-gray-600 mb-6">HP内にあるブログでは使用するサービスやフレームワークについてシンプルにまとめています。</p>
-                    <Link href="/techBlog">
-                      <a>
-                        <ButtonPrimary>テックブログ</ButtonPrimary>
-                      </a>
-                    </Link>
+                    <ButtonPrimary>テックブログ</ButtonPrimary>
                   </div>
                 </div>
               </a>

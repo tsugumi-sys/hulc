@@ -30,7 +30,7 @@ function MastHead() {
               src="/assets/joinus-image0.png"
               alt="VPN Illustrasi"
               quality={100}
-              width={612}
+              width={500}
               height={383}
               layout="responsive"
             />
