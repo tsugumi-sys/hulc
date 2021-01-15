@@ -32,6 +32,14 @@ const BlogBody = ({ content }) => {
                         >> {value}
                     </a>
                 )
+            },
+            [BLOCKS.PARAGRAPH]: (node) => {
+                const { value } = node.content[0];
+                return (
+                    <p style={{ marginTop: "1.5rem", marginBottom: "1.5rem"}}>
+                        {value}
+                    </p>
+                )
             }
         }
     }

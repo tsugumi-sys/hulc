@@ -25,7 +25,7 @@ const Layout = ({ children, title, description, ogImage, url }) => {
 
                 {/* Open Graph */}
                 <meta property="og:url" content={url ? url : pageUrl} key="techblog-ogurl" />
-                <meta property="og:image" content={ogImg} key="techblog-ogimage" />
+                <meta property="og:image" content={ogImage? ogImage : ogImg} key="techblog-ogimage" />
                 <meta property="og:site_name" content="Hokkaido Univ. Low-Code Club" key="techblog-ogsitename" />
                 <meta property="og:title" content={title} key="techblog-ogtitle" />
                 <meta property="og:description" content={
