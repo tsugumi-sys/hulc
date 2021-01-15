@@ -8,7 +8,7 @@ const Layout = ({ children, title, description, ogImage, url }) => {
     return(
         <div>
             <Head>
-                <title>{title ? title: "HULC Tech Blog"}</title>
+                <title>{title ? title: "北大ローコード（HULC）テックブログ"}</title>
                 <meta
                   name="description"
                   key="description"

@@ -11,10 +11,7 @@ export async function getStaticProps() {
 
 export default function TechBlog({ posts }) {
     return (
-        <Layout
-        title="HULC Tech Blog"
-        description="このブログはHULC（北大ローコード）のテックブログです。Javascript, Python e.t.c..."
-        >
+        <Layout>
             <PageHeader />
             <div className="bg-gradient-to-b from-white-300 to-white-500 w-full py-4 mt-4">
                 <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">

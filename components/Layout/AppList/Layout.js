@@ -8,14 +8,14 @@ const Layout = ({ children, title, description, ogImage, url }) => {
     return(
         <div>
             <Head>
-                <title>{title ? title: "HULC Tech Blog"}</title>
+                <title>{title ? title: "北大ローコード（HULC）アプリ一覧"}</title>
                 <meta
                   name="description"
                   key="description"
                   content = {
                       description
                         ? description
-                        : "このブログはHULC（北大ローコード）のテックブログです。JavaScriptフレームワーク（Next.js, React.js e.t.c）やFirebase, Vercel, AWSなどのLow-codeサービス、大学研究に使うPython、についての内容です。"
+                        : "北大ローコード（HULC）で開発したアプリ一覧です。様々なノーコード、ローコードサービスを使って作っています。今はGlideというアプリ開発サービスをメインに使っています。"
                   }
                 />
                 {/* Twitter */}
