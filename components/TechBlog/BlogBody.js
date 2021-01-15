@@ -24,25 +24,40 @@ const BlogBody = ({ content }) => {
                     </h1>
                 )
             },
+            [BLOCKS.PARAGRAPH]: (node) => {
+                const { value } = node.content[0];
+                var hyperlink = {}
+                for (var key of Object.keys(node.content)) {
+                    if (node.content[key].nodeType == "hyperlink") {
+                        hyperlink[key] = node.content[key]
+                    }
+                }
+                return (
+                    <p style={{ marginTop: "1.5rem", marginBottom: "1.5rem"}}>
+                        {value} {Object.keys(hyperlink).map(key => {
+                            const { value } = hyperlink[key].content[0];
+                            const { uri } = hyperlink[key].data;
+                            return (
+                                <a key={value} target="_blank" rel="noreferrer noopener" className="text-blue-100" href={uri}>
+                                    {value}
+                                </a>
+                            ) 
+                        })}
+                    </p>
+                )
+            },
             [INLINES.HYPERLINK]: (node) => {
                 const { uri } = node.data;
                 const { value } = node.content[0];
                 return (
                     <a target="_blank" rel="noreferrer noopener" className="text-blue-100" href={uri}>
-                        >> {value}
+                        {value}
                     </a>
                 )
             },
-            [BLOCKS.PARAGRAPH]: (node) => {
-                const { value } = node.content[0];
-                return (
-                    <p style={{ marginTop: "1.5rem", marginBottom: "1.5rem"}}>
-                        {value}
-                    </p>
-                )
-            }
         }
     }
+
     return (
         <div className="max-w-screen-xl mx-auto">
             <div className="px-4 lg:px-0 mt-12 mb-4 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
