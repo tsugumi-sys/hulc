@@ -10,6 +10,7 @@ const AppFirst = () => {
           title="KAIKEI"
           description="シンプルなグループ会計アプリ"
           url="https://hulc.vercel.app/assets/appList/kaikei.PNG"
+          ogImage="https://hulc.vercel.app/assets/appList/kaikei.PNG"
         >
             <BlogHeader
               title="KAIKEI"

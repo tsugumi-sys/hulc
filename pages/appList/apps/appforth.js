@@ -10,6 +10,7 @@ const AppListItem = () => {
           title="売り上げ管理アプリ"
           description="シンプルな売り上げ会計アプリ"
           url="https://hulc.vercel.app/assets/appList/uriage.png"
+          ogImage="https://hulc.vercel.app/assets/appList/uriage.png"
         >
             <BlogHeader
               title="売り上げ管理アプリ"

@@ -9,6 +9,7 @@ const AppFirst = () => {
           title="SCORES"
           description="HULC（北大ローコード）スポーツ系サークル、部活用、記録・スケジュール管理アプリ"
           url="https://hulc.vercel.app/assets/appList/scores.png"
+          ogImage="https://hulc.vercel.app/assets/appList/scores.png"
         >
             <BlogHeader
               title="SCORES"
