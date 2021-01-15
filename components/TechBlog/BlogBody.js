@@ -25,11 +25,11 @@ const BlogBody = ({ content }) => {
                 )
             },
             [INLINES.HYPERLINK]: (node) => {
-                const { url } = node.data;
+                const { uri } = node.data;
                 const { value } = node.content[0];
                 return (
-                    <a target="_blank" rel="noreferrer noopener" href={url}>
-                        {value}
+                    <a target="_blank" rel="noreferrer noopener" className="text-blue-100" href={uri}>
+                        >> {value}
                     </a>
                 )
             }
