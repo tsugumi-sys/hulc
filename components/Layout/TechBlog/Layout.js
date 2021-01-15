@@ -18,6 +18,7 @@ const Layout = ({ children, title, description, ogImage, url }) => {
                         : "このブログはHULC（北大ローコード）のテックブログです。JavaScriptフレームワーク（Next.js, React.js e.t.c）やFirebase, Vercel, AWSなどのLow-codeサービス、大学研究に使うPython、についての内容です。"
                   }
                 />
+                <link rel="icon" href="/favicon.ico" />
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" key="techblog-twcard" />
                 <meta name="twitter:creator" content="@HulcLow" key="techblog-twhandle" />

@@ -18,6 +18,7 @@ const Layout = ({ children, title, description, ogImage, url }) => {
                         : "北大ローコード（HULC）で開発したアプリ一覧です。様々なノーコード、ローコードサービスを使って作っています。今はGlideというアプリ開発サービスをメインに使っています。"
                   }
                 />
+                <link rel="icon" href="/favicon.ico" />
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" key="techblog-twcard" />
                 <meta name="twitter:creator" content="@HulcLow" key="techblog-twhandle" />

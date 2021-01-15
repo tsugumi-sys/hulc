@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import HeaderSec from "./HeaderSec";
+import Head from 'next/head'
 
 const Layout = ({ children }) => {
   return (
@@ -8,7 +9,7 @@ const Layout = ({ children }) => {
       <Head>
         <title>北大ローコード（Hokkaido Univ. LowCode Club）Join Us Page</title>
         <meta content="HULC(北大ローコード)のメンバー募集ページです。北海道大学のサークルとして2020年12月から活動を開始。北大IT系サークルとしてアプリケーション開発を通して他の学生団体（部活・サークル）を支援していくことが目的です。" name="description" />
-
+        <link rel="icon" href="/favicon.ico" />
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" key="twcard" />
         <meta name="twitter:creator" content="@HulcLow" key="twhandle" />

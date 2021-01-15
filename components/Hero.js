@@ -8,15 +8,14 @@ const Hero = () => {
       <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 my-12">
         <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
           <h1 className="leading-relaxed text-3xl lg:text-4xl xl:text-4xl font-semibold text-black-600">
-            Hello World :)<br/>
-            こんにちは、北大ローコード(HULC)です。
+            Hello World<br/>
+            Hokkaido Univ. LowCode Club<br />
+            北大ローコードはアプリを作るサークルです。<br />
+            
           </h1>
           <p className="text-black-500 mt-4 mb-6">
-            学生の個人、団体活動をよりスムーズにするために
-            <br />
-            アプリを作ってお助けします。
-            <br />
-            その課題、北大ローコードと協力して解決してみませんか？
+            自分で作ったアプリを武器に、身の回りの作業をもっとシンプルにしましょう。
+            最近はコードを書かないアプリ開発（NoCodeやLowCode）サービスが充実しています。
           </p>
           <Link href="https://hulc.hatenablog.com/">
             <a className="flex flex-col">

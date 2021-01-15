@@ -15,7 +15,7 @@ const HeaderSec = () => {
     <>
       <header
         className={
-          "fixed top-0 w-full  z-30 bg-white-500 transition-all " +
+          "fixed top-0 w-full  z-30 bg-blue-400 transition-all " +
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
@@ -29,7 +29,7 @@ const HeaderSec = () => {
           </div>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/joinus/">
-              <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
+              <a className="text-white-500 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
                   Join us
               </a>
             </Link>
