@@ -9,7 +9,7 @@ export default function Post({
     coverImage,
 }) {
     return (
-        <Link href={`/appList/posts/${slug}`}>
+        <Link href={`/appList/apps/${slug}`}>
           <a>
             <article className="overflow-hidden rounded-lg shadow-lg hover:shadow-mui">
                 <img alt="Placeholder" className="block h-48 w-full object-cover" src={coverImage} />

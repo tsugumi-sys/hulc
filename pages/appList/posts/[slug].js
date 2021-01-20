@@ -1,24 +1,23 @@
 import React from "react"
 import { useRouter } from "next/router"
 import ErrorPage from "next/error"
-import Layout from "../../../components/Layout/TechBlog/Layout"
-import BlogHeader from "../../../components/TechBlog/BlogHeader"
-import BlogBody from "../../../components/TechBlog/BlogBody"
+import Layout from "../../../components/Layout/AppList/Layout"
+import BlogHeader from "../../../components/AppList/BlogHeader"
+import ContentfulBody from "../../../components/AppList/ContentfulBody"
 import MorePost from "../../../components/TechBlog/MorePost"
 import { getPostBySlug, getMorePosts, getAllPostsWithSlug } from "../../../lib/index"
 
 export async function getStaticPaths() {
-    const allPosts = await getAllPostsWithSlug("hurcBlogContent2");
+    const allPosts = await getAllPostsWithSlug("hulcApplicationsContent")
     return {
-        paths: allPosts?.map(({ slug }) => `/techBlog/posts/${slug}`) ?? [],
+        paths: allPosts?.map(({ slug }) => `/appList/posts/${slug}`) ?? [],
         fallback: true
     }
 }
 
-
 export async function getStaticProps({ params }) {
-    const post = await getPostBySlug(params.slug, "hurcBlogContent2");
-    const morePosts = await getMorePosts(params.slug, "hurcBlogContent2");
+    const post = await getPostBySlug(params.slug, "hulcApplicationsContent")
+    const morePosts = await getMorePosts(params.slug, "hulcApplicationsContent")
     return {
         props: {
             post: post ? post : null,
@@ -30,11 +29,9 @@ export async function getStaticProps({ params }) {
 
 const Blog = ({ post, morePosts }) => {
     const router = useRouter();
-
     if (!router.isFallback && !post) {
         return <ErrorPage statusCode={404} />;
     }
-
     return (
         <Layout
           title={post?.fields.title}
@@ -51,7 +48,7 @@ const Blog = ({ post, morePosts }) => {
               date={post?.fields.date}
               coverImage={post?.fields.coverImage.fields.file.url}
             />
-            <BlogBody content={post?.fields.content} />
+            <ContentfulBody content={post?.fields.content} />
             {morePosts && (
                 <div className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14 mt-24">
                     <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">

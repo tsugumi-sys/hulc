@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
           <img src="/assets/hulc-logo.png" className="h-10 w-auto" />
           <p className="mb-4">
-            <strong className="font-medium">HULC</strong> はアプリを作ってみたいメンバーを募集中です。
+            <strong className="font-medium">HULC</strong> はメンバーを募集中です。
             相談もいつでも受け付けます。(DM)
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
@@ -18,15 +18,29 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <p className="text-gray-400">©2020HULC</p>
+          <p className="text-gray-400">©2021HULC</p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Demo Apps</p>
+          <p className="text-black-600 mb-4 font-medium text-lg">Site Menu</p>
           <ul className="text-black-500 ">
+            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+              <Link href="/techBlog">
+                <a>
+                  Services
+                </a>
+              </Link>
+            </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               <Link href="/appList">
                 <a>
-                  App List
+                  Applications
+                </a>
+              </Link>
+            </li>
+            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+              <Link href="/joinus">
+                <a>
+                  Join Us
                 </a>
               </Link>
             </li>
@@ -37,20 +51,13 @@ const Footer = () => {
           <ul className="text-black-500">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               <a href="https://twitter.com/HulcLow">
-                Twitter{" "}
+                  Twitter{" "}
               </a>
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               <a href="https://hulc.hatenablog.com/">
-                Blog{" "}
+                  Blog{" "}
               </a>
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              <Link href="/techBlog">
-                <a>
-                  TechBlog{" "}
-                </a>
-              </Link>
             </li>
           </ul>
         </div>

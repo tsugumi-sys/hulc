@@ -17,22 +17,22 @@ const Header = () => {
     <>
       <header
         className={
-          "fixed top-0 w-full  z-30 bg-blue-200 transition-all " +
+          "fixed top-0 w-full  z-30 bg-blue-100 transition-all " +
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <Link href="/appList/">
-              <a className="text-white-300 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
-                HOME
+            <Link href="/">
+              <a>
+              <img src="/assets/hulc-logo.png" className="h-10 w-auto" />
               </a>
             </Link>
           </div>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
               <a className="text-white-300 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
-                  HP Top
+                  Apps Top
               </a>
             </Link>
             <a href="https://twitter.com/HulcLow" className="flex flex-col">

@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
     <div>
       <Head>
         <title>北大ローコード（Hokkaido Univ. LowCode Club）</title>
-        <meta content="HULC(北大ローコード)のホームページです。北海道大学のサークルとして2020年12月から活動を開始。北大IT系サークルとしてアプリケーション開発を通して他の学生団体（部活・サークル）を支援していくことが目的です。" name="description" />
+        <meta content="HULC(北大ローコード)のホームページです。北海道大学のサークルとして2020年12月から活動を開始。無料サービスを使いこなして色々できる人をたくさん輩出します。" name="description" />
         <link rel="icon" href="/favicon.ico" />
 
         {/* Twitter */}

@@ -5,7 +5,7 @@ import PageHeader from "../../components/TechBlog/PageHeader"
 import { getAllPosts } from "../../lib/index"
 
 export async function getStaticProps() {
-    const posts = await getAllPosts();
+    const posts = await getAllPosts("hurcBlogContent2");
     return { revalidate: 1, props: { posts } };
 };
 

@@ -1,5 +1,5 @@
 import Header from "./Header"
-import Footer from "./Footer"
+import Footer from "../Footer"
 import Head from "next/head"
 
 const Layout = ({ children, title, description, ogImage, url }) => {
@@ -31,7 +31,7 @@ const Layout = ({ children, title, description, ogImage, url }) => {
                 <meta property="og:description" content={
                     description
                       ? description
-                      : "This is a statically generated blog example using Next.js and Contentful."
+                      : "北大ローコード（HULC）で開発したアプリ一覧です。様々なノーコード、ローコードサービスを使って作っています。今はGlideというアプリ開発サービスをメインに使っています。"
                 } key="techblog-ogdesc" />
             </Head>
             <Header />

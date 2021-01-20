@@ -1,10 +1,18 @@
 import React from "react"
 import Post from "../../components/AppList/Post"
+import Pastpost from "../../components/AppList/Pastpost"
 import Layout from "../../components/Layout/AppList/Layout"
 import PageHeader from "../../components/AppList/PageHeader"
+import { getAllPosts } from "../../lib/index"
 
+// hulcApplicationsContent
 
-export default function TechBlog() {
+export async function getStaticProps() {
+    const posts = await getAllPosts("hulcApplicationsContent")
+    return { revalidate: 1, props: { posts } };
+};
+
+export default function TechBlog({ posts }) {
     const apps = [
         {
             title: "SCORES",
@@ -46,9 +54,22 @@ export default function TechBlog() {
                 <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
                   
                         <div className="flex flex-wrap -mx-1 lg:-mx-4">
-                            {apps?.map((fields) => (
+                            {posts?.map(({ fields }) => (
                                 <div className="my-3 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3" key={fields.slug}>
                                     <Post
+                                    title={fields.title}
+                                    subtitle={fields.subTitle}
+                                    authorName={fields.author.fields.name}
+                                    authorImage={fields.author.fields.image.fields.file.url}
+                                    slug={fields.slug}
+                                    date={fields.date}
+                                    coverImage={fields.coverImage.fields.file.url}
+                                    />
+                                </div>
+                            ))}
+                            {apps?.map((fields) => (
+                                <div className="my-3 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3" key={fields.slug}>
+                                    <Pastpost
                                     title={fields.title}
                                     subtitle={fields.subTitle}
                                     authorName={fields.authorName}

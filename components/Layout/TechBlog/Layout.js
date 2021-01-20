@@ -1,5 +1,5 @@
 import Header from "./Header"
-import Footer from "./Footer"
+import Footer from "../Footer"
 import Head from "next/head"
 
 const Layout = ({ children, title, description, ogImage, url }) => {
@@ -9,14 +9,14 @@ const Layout = ({ children, title, description, ogImage, url }) => {
     return(
         <div>
             <Head>
-                <title>{title ? title: "北大ローコード（HULC）テックブログ"}</title>
+                <title>{title ? title: "北大ローコード（HULC）サービス"}</title>
                 <meta
                   name="description"
                   key="description"
                   content = {
                       description
                         ? description
-                        : "このブログはHULC（北大ローコード）のテックブログです。JavaScriptフレームワーク（Next.js, React.js e.t.c）やFirebase, Vercel, AWSなどのLow-codeサービス、大学研究に使うPython、についての内容です。"
+                        : "北大ローコードのメンバーが使っているサービスの一覧です。JavaScriptフレームワーク（Next.js, React.js e.t.c）やFirebase, Vercel, AWSなどのLow-codeサービス、大学研究に使うPython、についての内容です。"
                   }
                 />
                 <link rel="icon" href="/favicon.ico" />
@@ -32,7 +32,7 @@ const Layout = ({ children, title, description, ogImage, url }) => {
                 <meta property="og:description" content={
                     description
                       ? description
-                      : "This is a statically generated blog example using Next.js and Contentful."
+                      : "北大ローコードのメンバーが使っているサービスの一覧です。JavaScriptフレームワーク（Next.js, React.js e.t.c）やFirebase, Vercel, AWSなどのLow-codeサービス、大学研究に使うPython、についての内容です。"
                 } key="techblog-ogdesc" />
             </Head>
             <Header />

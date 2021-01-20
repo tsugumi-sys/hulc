@@ -24,23 +24,23 @@ const Feature = () => {
         </div>
         <div className="flex flex-col justify-center ml-auto w-full lg:w-9/12">
           <h3 className="text-3xl lg:text-4xl font-bold leading-relaxed text-black-600">
-            シンプルなアプリを作ってみませんか？
+            便利なサービスを駆使して、やりたいことを実現しましょう。
           </h3>
           <p className="my-2 text-black-500">
-            北大ローコード(HULC)は以下のようなことができるアプリの作成が得意です。
+            良いサービスはできることの可能性を広げてくれます。どんなものを作ったか確認できます。
           </p>
           <ul className="text-black-500 self-start list-inside ml-8 mb-6">
             <li className="relative circle-check custom-list">
-              記入作業をスマホで自動化
+              WEB、スマホアプリケーション作成
             </li>
             <li className="relative circle-check custom-list">
-              選手のスコアなどの情報の簡単共有
+              HP構築、ブログ設置、
             </li>
             <li className="relative circle-check custom-list">
-              まだこれくらいしかできないかもしれません
+              LINE通知、メール通知の自動化
             </li>
           </ul>
-          <Link href="/appList/">
+          <Link href="/appList">
             <a>
               <ButtonPrimary>アプリを見てみる</ButtonPrimary>
             </a>
