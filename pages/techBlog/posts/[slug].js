@@ -40,7 +40,7 @@ const Blog = ({ post, morePosts }) => {
           title={post?.fields.title}
           description={post?.fields.subTitle}
           url={`https://hulc.vercel.app/techBlog/posts/${post?.fields.slug}`}
-          ogImage={"html:" + post?.fields.coverImage.fields.file.url}
+          ogImage={"http:" + post?.fields.coverImage.fields.file.url}
         >
             <BlogHeader
               title={post?.fields.title}
