@@ -45,7 +45,7 @@ const Pricing = () => {
                   <div className="bg-white rounded-lg shadow-xl py-2 pb-10">
                     <div className="pt-10 pb-3 pl-20">
                       <div className="text-center flex flex-row items-center">
-                        <h1 className="text-8xl font-bold">+6</h1>
+                        <h1 className="text-8xl font-bold">+8</h1>
                         <p className="text-lg ml-3">Services</p>
                       </div>
                     </div>
