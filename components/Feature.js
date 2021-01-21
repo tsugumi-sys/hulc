@@ -27,7 +27,7 @@ const Feature = () => {
             便利なサービスを駆使して、やりたいことを実現しましょう。
           </h3>
           <p className="my-2 text-black-500">
-            良いサービスはできることの可能性を広げてくれます。どんなものを作ったか確認できます。
+            良いサービスはできることの可能性を広げてくれます。北大ローコードのメンバーがどんなものを作ったか確認できます。
           </p>
           <ul className="text-black-500 self-start list-inside ml-8 mb-6">
             <li className="relative circle-check custom-list">
