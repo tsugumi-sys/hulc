@@ -34,7 +34,6 @@ const Blog = ({ post, morePosts }) => {
     if (!router.isFallback && !post) {
         return <ErrorPage statusCode={404} />;
     }
-    console.log(post.fields.coverImage.fields.file)
 
     return (
         <Layout
