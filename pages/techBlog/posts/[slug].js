@@ -34,13 +34,14 @@ const Blog = ({ post, morePosts }) => {
     if (!router.isFallback && !post) {
         return <ErrorPage statusCode={404} />;
     }
+    console.log(post.fields.coverImage.fields.file)
 
     return (
         <Layout
           title={post?.fields.title}
           description={post?.fields.subTitle}
           url={`https://hulc.vercel.app/techBlog/posts/${post?.fields.slug}`}
-          ogImage={post?.fields.coverImage.fields.file.url}
+          ogImage={"html:" + post?.fields.coverImage.fields.file.url}
         >
             <BlogHeader
               title={post?.fields.title}
