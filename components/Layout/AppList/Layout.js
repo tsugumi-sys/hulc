@@ -9,14 +9,14 @@ const Layout = ({ children, title, description, ogImage, url }) => {
     return(
         <div>
             <Head>
-                <title>{title ? title: "北大ローコード（HULC）アプリ一覧"}</title>
+                <title>{title ? title: "北大ローコード（HULC）Apps"}</title>
                 <meta
                   name="description"
                   key="description"
                   content = {
                       description
                         ? description
-                        : "北大ローコード（HULC）で開発したアプリ一覧です。様々なノーコード、ローコードサービスを使って作っています。今はGlideというアプリ開発サービスをメインに使っています。"
+                        : "北大ローコード（HULC）のメンバーが開発したアプリ一覧です。様々なノーコード、ローコードサービスを使って作っています。Happy Hacking!!"
                   }
                 />
                 <link rel="icon" href="/favicon.ico" />
@@ -28,7 +28,7 @@ const Layout = ({ children, title, description, ogImage, url }) => {
                 <meta property="og:url" content={url ? url : pageUrl} key="techblog-ogurl" />
                 <meta property="og:image" content={ogImage ? ogImageUrl : ogImg} key="techblog-ogimage" />
                 <meta property="og:site_name" content="Hokkaido Univ. Low-Code Club" key="techblog-ogsitename" />
-                <meta property="og:title" content={title} key="techblog-ogtitle" />
+                <meta property="og:title" content={title ? title: "北大ローコード（HULC）Apps"} key="techblog-ogtitle" />
                 <meta property="og:description" content={
                     description
                       ? description
